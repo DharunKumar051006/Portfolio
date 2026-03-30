@@ -1,11 +1,11 @@
-import { Code, Palette, Zap, Database, Cpu, Wrench } from 'lucide-react'
+import { Code, Cpu, Palette, Database, Wrench } from 'lucide-react'
 
 export default function Skills() {
   const skillCategories = [
     {
       title: 'Programming Languages',
       icon: Code,
-      skills: ['Python', 'Java', 'C'],
+      skills: ['Python', 'Java', 'C', 'C++'],
       color: 'from-blue-500 to-blue-600'
     },
     {
@@ -47,41 +47,6 @@ export default function Skills() {
           A comprehensive overview of my technical expertise and tools I work with
         </p>
 
-        {/* Skills Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 md:gap-8 mb-16">
-          {skillCategories.map((category, idx) => {
-            const IconComponent = category.icon
-            return (
-              <div 
-                key={idx} 
-                className="group relative bg-gradient-to-br from-gray-900/50 to-gray-800/20 rounded-2xl p-6 md:p-8 backdrop-blur-md hover:from-gray-900/80 hover:to-gray-800/40 border border-gray-800/50 hover:border-orange-500/30 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/10 animate-fadeInUp overflow-hidden h-full flex flex-col"
-                style={{ animationDelay: `${idx * 100}ms` }}
-              >
-                {/* Accent bar */}
-                <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${category.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300`}></div>
-
-                <div className={`w-12 h-12 bg-gradient-to-br ${category.color} bg-opacity-20 rounded-xl flex items-center justify-center mb-4 group-hover:bg-opacity-40 transition-all duration-300 border border-gray-700/50 group-hover:border-white/20`}>
-                  <IconComponent className="text-orange-500 group-hover:text-orange-400 transition-colors" size={28} />
-                </div>
-
-                <h3 className="text-base md:text-lg font-bold text-white mb-4 group-hover:text-orange-400 transition-colors">{category.title}</h3>
-
-                <div className="space-y-2.5 flex-1">
-                  {category.skills.map((skill, sidx) => (
-                    <div 
-                      key={sidx} 
-                      className="group/skill flex items-center gap-2 p-2 rounded-lg hover:bg-white/5 transition-all duration-300"
-                    >
-                      <div className="w-1.5 h-1.5 bg-gradient-to-r from-orange-500 to-orange-400 rounded-full group-hover/skill:shadow-md group-hover/skill:shadow-orange-500/50 transition-all"></div>
-                      <span className="text-gray-300 group-hover/skill:text-gray-100 group-hover/skill:translate-x-1 transition-all text-sm font-medium">{skill}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )
-          })}
-        </div>
-
         {/* All Skills as Badges */}
         <div className="bg-gradient-to-br from-gray-900/50 to-gray-800/20 rounded-2xl p-8 md:p-12 backdrop-blur-md border border-gray-800/50 hover:border-orange-500/20 transition-all duration-300 animate-fadeInUp" style={{ animationDelay: '500ms' }}>
           <h3 className="text-xl md:text-2xl font-bold text-white mb-8">All Skills Overview</h3>
@@ -89,7 +54,10 @@ export default function Skills() {
           <div className="space-y-6 md:space-y-8">
             {skillCategories.map((category, idx) => (
               <div key={idx} className="animate-fadeInUp" style={{ animationDelay: `${550 + idx * 50}ms` }}>
-                <h4 className="text-orange-400 font-semibold mb-4 text-xs uppercase tracking-widest">{category.title}</h4>
+                <div className="flex items-center gap-2 mb-4">
+                  <category.icon size={20} className="text-orange-400" />
+                  <h4 className="text-orange-400 font-semibold text-xs uppercase tracking-widest">{category.title}</h4>
+                </div>
                 <div className="flex flex-wrap gap-2 md:gap-3">
                   {category.skills.map((skill, sidx) => (
                     <div
