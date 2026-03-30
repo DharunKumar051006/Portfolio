@@ -43,7 +43,7 @@ export default function Hero() {
               <button className="group relative px-8 py-3.5 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/40 flex items-center justify-center gap-2 overflow-hidden">
                 <span className="relative z-10 flex items-center gap-2">
                     <a href="#contact" className="flex items-center gap-2">
-                  Hire Me
+                  Contact Me
                     </a>
                   <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                 </span>
