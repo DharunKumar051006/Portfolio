@@ -5,7 +5,7 @@ export default function Projects() {
     {
       title: 'Smart AI Notes Summarizer',
       description: 'Developed an AI-powered notes generator supporting text, speech, PDF, and image inputs, with multilingual capability across 18 languages. Features key point extraction and intelligent summarization powered by LLMs and MongoDB for data persistence.',
-      image: '/summarizer.png',
+      image: '/summarizer.jpg',
       tags: ['Python', 'React', 'LLM', 'MongoDB'],
       links: {
         live: 'https://github.com/Dharunkumar0/AI-Notes-Generator',
