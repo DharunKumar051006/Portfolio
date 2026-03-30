@@ -82,8 +82,10 @@ export default function Navbar({ scrollToSection, activeSection }) {
                   </span>
                 </button>
               ))}
-              <button className="mx-2 mt-4 px-6 py-2.5 bg-orange-500 hover:bg-orange-600 text-white rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 w-auto">
-                Hire Me
+              <button className="mx-2 mt-4 px-6 py-2.5 bg-orange-500 hover:bg-orange-600 text-white rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 w-auto" >
+                <a href="#contact" className="flex items-center gap-2">
+                  Contact Me
+                    </a>
               </button>
             </div>
           </div>
