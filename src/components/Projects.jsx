@@ -5,7 +5,7 @@ export default function Projects() {
     {
       title: 'Smart AI Notes Summarizer',
       description: 'Developed an AI-powered notes generator supporting text, speech, PDF, and image inputs, with multilingual capability across 18 languages. Features key point extraction and intelligent summarization powered by LLMs and MongoDB for data persistence.',
-      image: 'https://images.unsplash.com/photo-1677442d019cecf8c4949c4ecda4a90c38a4e56f?w=500&h=300&fit=crop',
+      image: '/summarizer.png',
       tags: ['Python', 'React', 'LLM', 'MongoDB'],
       links: {
         live: 'https://github.com/Dharunkumar0/AI-Notes-Generator',
@@ -16,7 +16,7 @@ export default function Projects() {
     {
       title: 'Gamified Learning Platform',
       description: 'Built a lightweight, gamified STEM learning platform for rural users with offline access. Features interactive videos, games, quizzes, and includes a comprehensive teacher dashboard for course management and student tracking.',
-      image: 'https://images.unsplash.com/photo-1460925895917-adf4e565db20?w=500&h=300&fit=crop',
+      image: '/gamified.png',
       tags: ['Flutter', 'HTML', 'CSS', 'JavaScript'],
       links: {
         live: 'https://github.com/Dharunkumar0/Aurraa',
@@ -26,7 +26,7 @@ export default function Projects() {
     {
       title: 'AI Tamil Chatbot',
       description: 'Developed a voice-enabled conversational AI chatbot specifically designed for Tamil language support. Integrated NLP processing, cultural awareness with Tamil calendar integration, and context-aware responses for natural interactions.',
-      image: 'https://images.unsplash.com/photo-1516321318423-f06f70d504f0?w=500&h=300&fit=crop',
+      image: '/tamil-chatbot.png',
       tags: ['HTML', 'CSS', 'JavaScript', 'Python'],
       links: {
         live: 'https://github.com/Dharunkumar0/vanakkam-tamil',
