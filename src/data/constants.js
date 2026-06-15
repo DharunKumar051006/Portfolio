@@ -14,7 +14,11 @@ export const NAV_ITEMS = [
 export const FOOTER_LINKS = [
   { label: 'Home', id: 'home' },
   { label: 'About', id: 'about' },
+  { label: 'Skills', id: 'skills' },
   { label: 'Projects', id: 'projects' },
+  { label: 'Experience', id: 'experience' },
+  { label: 'Education', id: 'education' },
+  { label: 'Achievements', id: 'achievements' },
   { label: 'Contact', id: 'contact' }
 ]
 
@@ -58,8 +62,8 @@ export const ABOUT_HIGHLIGHTS = [
 
 // About stats
 export const ABOUT_STATS = [
-  { number: '3+', label: 'Projects' },
+  { number: '5+', label: 'Projects' },
   { number: '15+', label: 'Technical Skills' },
-  { number: '2+', label: 'Certifications' },
-  { number: '1', label: 'Year Experience' }
+  { number: '3+', label: 'Certifications' },
+  { number: '2+', label: 'Year Experience' }
 ]

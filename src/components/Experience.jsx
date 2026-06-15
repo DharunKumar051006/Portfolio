@@ -12,6 +12,17 @@ export default function Experience() {
         'JS-based games & SVG animations',
         'Low-spec device optimization'
       ]
+    },
+    {
+      company: 'CleverStudios Pvt Ltd',
+      position: 'Backend Developer Intern',
+      duration: 'Apr 2026 - May 2026',
+      description: 'Developed and maintained backend services for the Rikoo AI project at Cleverstudio, focusing on API development, database management, and server-side logic implementation to ensure scalable architecture and efficient system performance.',
+      achievements: [
+        'Built and maintained RESTful APIs for AI-powered applications',
+        'Managed databases and optimized data handling processes',
+        'Implemented server-side logic to improve scalability and performance'
+      ]
     }
   ]
 

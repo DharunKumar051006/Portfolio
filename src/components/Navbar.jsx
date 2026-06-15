@@ -45,12 +45,6 @@ export default function Navbar({ scrollToSection, activeSection }) {
             ))}
           </div>
 
-          {/* CTA Button */}
-          <button className="hidden md:block relative px-6 py-2.5 bg-orange-500 hover:bg-orange-600 text-white rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/50 group overflow-hidden">
-            <span className="relative z-10">Hire Me</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-orange-600 to-orange-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-          </button>
-
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}

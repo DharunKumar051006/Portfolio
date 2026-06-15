@@ -86,9 +86,9 @@ export default function Hero() {
             {/* Stats Cards Row */}
             <div className="grid grid-cols-3 gap-3 mt-8">
               {[
-                { label: 'Projects', value: '3+' },
-                { label: 'Skills', value: '10+' },
-                { label: 'Certifications', value: '2+' }
+                { label: 'Projects', value: '5+' },
+                { label: 'Skills', value: '15+' },
+                { label: 'Certifications', value: '3+' }
               ].map((stat, idx) => (
                 <div
                   key={idx}

@@ -5,7 +5,7 @@ export default function Skills() {
     {
       title: 'Programming Languages',
       icon: Code,
-      skills: ['Python', 'Java', 'C', 'C++'],
+      skills: ['Python', 'Java', 'C'],
       color: 'from-blue-500 to-blue-600'
     },
     {
@@ -23,7 +23,7 @@ export default function Skills() {
     {
       title: 'Databases',
       icon: Database,
-      skills: ['MySQL', 'MongoDB'],
+      skills: ['MySQL', 'MongoDB', 'VectorDB'],
       color: 'from-green-500 to-green-600'
     },
     {
